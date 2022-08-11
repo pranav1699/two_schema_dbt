@@ -4,14 +4,14 @@ sources:
   - name: users_cars
     description: The table that has the data about the users and their cars.
     database: dbt
-    schema : schema_one 
+    schema : airbytes_schema
     tables:
       - name: users_cars
 
   - name : users_cars_two
     description: The table that has the data about the users and their cars.
     database: dbt
-    schema : schema_two
+    schema : airbytes_schema
     tables:
       - name: users_cars
         
