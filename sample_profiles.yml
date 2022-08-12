@@ -1,0 +1,15 @@
+# The profiles.yaml file will be created in the users direrctory once we create a dbt project uisng th command "dbt init"
+
+two_schema_dbt: # name of the project
+  outputs:
+    dev:
+      type: postgres # type of the database 
+      threads: 1 # no of threads we are going to use
+      host: Host address
+      port: portnumber
+      user: postgres
+      pass: 'password'
+      dbname: database name
+      schema: schema name
+
+  target: dev
