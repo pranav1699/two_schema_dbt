@@ -7,7 +7,7 @@
 - Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
 
 ### Start the dbt project
-- Use the command dbt init project_name to initialize the dbt project
+- Use the command 'dbt init project_name' to initialize the dbt project
 - then go to the profiles.yml which is created in the user directory under .dbt folder
 - update the credentials in the profiles.yml file
 - then in models folder create a subfolder and name it 
