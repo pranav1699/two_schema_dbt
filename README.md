@@ -19,4 +19,7 @@
   --mount type=bind,source=path/to/project,target=/usr/app \
   --mount type=bind,source=path/to/profiles.yml,target=/root/.dbt/ \
   <dbt_image_name> \ run 
+
+- Pull the docker image using this command 
+docker pull ghcr.io/dbt-labs/dbt-postgres:latest
   
