@@ -21,5 +21,5 @@
   <dbt_image_name> \ run 
 
 - Pull the docker image using this command 
-docker pull ghcr.io/dbt-labs/dbt-postgres:latest
+- docker pull ghcr.io/dbt-labs/dbt-postgres:latest
   
